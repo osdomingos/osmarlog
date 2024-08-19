@@ -1,0 +1,195 @@
+/* Estilos originais */
+body {
+  background-color: #1a237e;
+  margin: 0; /* Remover a margem padrão do body */
+  padding: 0; /* Remover o padding padrão do body */
+}
+
+#logo {
+  max-width: 200px;
+  min-width: 150px;
+  transition: all 0.3s ease; /* Adicionando transição */
+}
+
+header {
+  color: white;
+  font-family: "Anek Devanagari", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.header-flex-item, .header-flex-item img {
+  max-width: 40vw;
+}
+
+.header-flex-item img {
+  border: 2px solid #f57c00;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#fale-conosco {
+  color: #f57c00;
+  background-color: #1a237e;
+  text-decoration: none;
+}
+
+#fale-conosco:hover {
+  color: white;
+}
+
+#fale-conosco h3 {
+  display: inline;
+  border: 2px solid #f57c00;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+nav {
+  background-color: #1a237e;
+  width: 100%;
+  position: fixed; /* Garantir que o nav fique fixo no topo */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Anek Devanagari", sans-serif;
+  z-index: 1000; /* Garantir que o nav fique acima de outros elementos */
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  transition: all 0.3s ease;
+  margin: 0; /* Remover margens do menu */
+  padding: 0; /* Remover padding do menu */
+}
+
+li {
+  margin: 0 20px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #f57c00;
+}
+
+/* Estilo adicional para quando a página for rolada */
+.scrolled #logo {
+  max-width: 100px;
+  min-width: 80px;
+}
+
+.scrolled {
+  padding: 10px 0; /* Para ajustar o padding ao rolar */
+}
+
+/* Não há mudanças no resto do CSS */
+#hero {
+  height: 100vh;
+  margin-top: 30vh;
+}
+
+#icon1 {
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+  left: 25vw;
+  top: 40vh;
+  opacity: 0.5;
+}
+
+#corpo {
+  /* background-color: azure; */
+}
+
+#redes {
+  position: fixed;
+}
+
+#redes img {
+  max-height: 25px;
+  filter: invert(100%);
+  margin-left: 10px;
+  margin-bottom: -8vh;
+}
+
+#sobre, #visao, #certificacoes, #objetivos, #contatos {
+  display: flex;
+  color: white;
+  font-family: "Anek Devanagari", sans-serif;
+  align-items: center;
+}
+
+#sobre {
+  margin-top: -40vh;
+}
+
+#visao {
+  margin-left: 10vw;
+}
+
+#objetivos {
+  margin-bottom: 20vh;
+  padding-left: 5vw;
+  max-width: 80vw;
+}
+
+#objetivos-itens {
+  margin-left: 5vw;
+}
+
+#imagem-sobre {
+  width: 40vw;
+}
+
+.imagem img {
+  border: 2px solid #f57c00;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5vw;
+  width: 40vw;
+}
+
+.texto {
+  padding: 80px;
+}
+
+#objetivos-titulo {
+  width: 20vw;
+  text-align: right;
+}
+
+.enfase {
+  color: #f57c00;
+}
+
+#objetivos #checkmark {
+  color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 900;
+  font-weight: bolder;
+}
+
+#objetivos ul {
+  list-style-type: none;
+}
+
+#certificacoes {
+  padding-top: 20vh;
+  margin: auto;
+  max-width: 80vw;
+}
+
+#contatos {
+  margin-top: 30vh;
+  display: block;
+  text-align: center;
+}
