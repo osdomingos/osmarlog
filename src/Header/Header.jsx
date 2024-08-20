@@ -1,4 +1,4 @@
-import img from '../assets/img1.jpg'
+import img from '../assets/img1.jpeg'
 import icon1 from '../assets/icon1.png'
 
 const contato = '5547988205722'
